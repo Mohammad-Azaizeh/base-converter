@@ -1,0 +1,93 @@
+/* Mohammad Azaizeh-212189252
+Shahed Abo Amer-213651292
+*/
+ 
+body {
+    font-family: sans-serif;
+    background-color: rgb(241, 239, 244);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #4a4a54;
+  }
+  
+  .description {
+    margin-bottom: 30px;
+    color: #4a4a54;
+  }
+  
+  .section {
+    margin: 20px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #8c52ff;
+    color: white;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  button[data="2"] { background-color: #ff5757; }
+  button[data="8"] { background-color: #0cc0df; }
+  button[data="10"] { background-color: #8c52ff; }
+  button[data="16"] { background-color: #ffde59; }
+  
+  button.selected {
+    background-color: #007F73; 
+    outline: 2px solid #333;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  
+  #convert {
+    margin-top: 20px;
+    background-color: #4a4a54;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+  }
+  
+  #result {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: darkslategrey;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .button-group {
+      flex-direction: column;
+    }
+  
+    input[type="text"] {
+      width: 95%;
+    }
+  }
+  
