@@ -1,5 +1,4 @@
-// Mohammad Azaizeh-212189252
-//Shahed Abo Amer-213651292
+
  
 let fromBase = 10; //default is decimal
 let toBase = 2;    //default is binary
